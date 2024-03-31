@@ -12,7 +12,7 @@ public class Main {
         System.out.print("Enter number #2: ");
         int n2 = sc.nextInt();
 
-        Arithmetic arithmetic = new Arithmetic(n1, n2);
+        Arithmetic<Integer> arithmetic = new Arithmetic<>(n1, n2);
         MyMap<Object, Object> map = new MyMap<>();
 
         System.out.println("Sum: " + arithmetic.add());
